@@ -30,7 +30,7 @@ public class GeoServiceImpl implements GeoService {
     /**
      * Метод определяет локацию по координатам
      */
-    public Location byCoordinates(double latitude, double longitude) {
+    public Location byCoordinates() {
         throw new RuntimeException("Not implemented");
     }
 }
